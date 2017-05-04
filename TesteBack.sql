@@ -1,0 +1,7 @@
+CREATE TABLE tb_customer_account (
+id_customer INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+nm_customer VARCHAR(80) NOT NULL,
+cpf_cnpj VARCHAR(12) NOT NULL,
+is_active BOOLEAN NOT NULL,
+vl_total DOUBLE NOT NULL
+);
